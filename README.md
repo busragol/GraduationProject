@@ -1,9 +1,9 @@
 # GraduationProject-Autonomous Car</br>
 The car advancing on rough terrain.</br></br>
 **Introduction of Project:**</br>
-In this project we aimed to make otonomous car that can proceed without hitting the obstacles.Firstly,we took a image of ground that we create using ground mat and 3d geometric shapes as obstacles using 3d intel realsense depth camera.Then we considered project as 3 stage that are 3d Image Processing,Path Planning and Ardunio but Ardunio step could not be realized.
+In this project we aimed to make otonomous car that can proceed without hitting the obstacles.Firstly,we took a image of ground that we create using ground mat and 3d geometric shapes as obstacles using 3d Intel RealSense Depth Camera.Then we considered project as 3 stage that are 3d Image Processing,Path Planning and Ardunio but Ardunio step could not be realized.
 </br></br>
-We used the following requirements:
+We used the following requirements:</br>
                                                                       **Hardware:**<br>
                                                                `R200 Intel Realsense Depth Camera to take image`</br>
                                                                `Ardunio Mega`</br>
@@ -43,11 +43,11 @@ Figure 8: Convex Hull of Projection of Objects</br></br>
 Finally, we finished first stage.</br></br>
 
 **Stage 2: Path Planning**</br>
-In the first stage we finished 3d Image Processing and now we are second stage is Path Planning.In this stage we firstly researched Path Planning Algortihms and Dijkstra Algorithm was suitable for path planning.Then we researched how we implement Dijkstra Algorithm from Convex Hull of the boxes.We drew a raodmap for this.We firstly should visibility graph.Visibility Graph is a graph of intervisible locations,typically for a set of points and obstacles in the Euclidean plane.With Visibility graph we already edges between the points of each convex.Then we gave weigth to edges because Dijkstra Algorithm need this weight to find shortest path.Final of this roadmap is Dijkstra Algorithm.We implement these steps in Eclipse with Java Programming Languages.
+In the first stage we finished 3d Image Processing and now we are in second stage is Path Planning.In this stage we firstly researched Path Planning Algortihms and Dijkstra Algorithm was suitable for path planning.Then we researched how we implement Dijkstra Algorithm from Convex Hull of the boxes.We drew a raodmap for this.We firstly should visibility graph.Visibility Graph is a graph of intervisible locations,typically for a set of points and obstacles in the Euclidean plane.With Visibility graph we already edges between the points of each convex.Then we gave weigth to edges because Dijkstra Algorithm need this weight to find shortest path.Final of this roadmap is Dijkstra Algorithm.We implement these steps in Eclipse with Java Programming Languages.
 In the final of the path planning stage, we found shortest path between every point.We could change source and destination points from file.</br></br>
 ![PathPlaning](https://github.com/busragol/GraduationProject/blob/master/Images/PathPlaning.PNG)
 Figure 9: Path Planning Result</br></br>
-**Stage 3: Advancing the car with Ardunio**</br>
+**Stage 3: Ardunio**</br>
 This stage could not be realized.
 </br></br>
 **NOTE**</br>
