@@ -34,7 +34,7 @@ And then we applied Euclidean Clustering Algorithm to extract the our boxes as c
 Figure 5: Dataset after Euclidean Clustering</br></br>
 Then in the next step we implement 3d bounding box but we didn't need because only x and y coordinate is enough for project.The car won't move on the z axis.Thus,we decided to implement 2d bounding box and for this we firstly applied projection. </br></br>
 ![Projected_GroundSide](https://github.com/busragol/GraduationProject/blob/master/Images/Projected_GroundSide.PNG)</br>
-Figure 6: Projected ground from side
+Figure 6: Projected ground from side</br>
 ![Projecter_GroundTop](https://github.com/busragol/GraduationProject/blob/master/Images/Projected_CloudTop.PNG)</br>
 Figure 7: Projected ground from top side</br></br>
 In the next step,we decided to find convex hull for boundary area.</br>
