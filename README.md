@@ -30,7 +30,7 @@ After receive raw data,we applied Ground Plane Segmentation to detect the larges
 ![Filtered_Data](https://github.com/busragol/GraduationProject/blob/master/Images/Filtered_Data.PNG)</br>
 Figure 4: Ground Plane after Ground Plane Segmentation</br></br>
 And then we applied Euclidean Clustering Algorithm to extract the our boxes as clusters.This step is Object Segmentation.</br></br>
-![EuclideanClustering](https://github.com/busragol/GraduationProject/blob/master/Images/EuclideanClustering.PNG)</br></br>
+![EuclideanClustering](https://github.com/busragol/GraduationProject/blob/master/Images/EuclideanClustering.PNG)</br>
 Figure 5: Dataset after Euclidean Clustering</br></br>
 Then in the next step we implement 3d bounding box but we didn't need because only x and y coordinate is enough for project.The car won't move on the z axis.Thus,we decided to implement 2d bounding box and for this we firstly applied projection. </br></br>
 ![Projected_GroundSide](https://github.com/busragol/GraduationProject/blob/master/Images/Projected_GroundSide.PNG)</br>
