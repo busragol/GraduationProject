@@ -1,7 +1,7 @@
 # GraduationProject-Autonomous Car</br>
 The car advancing on rough terrain.</br></br>
 **Introduction of Project:**</br>
-In this project we aimed to make otonomous car that can proceed without hitting the obstacles with my project friend Meliha Dikmen.Firstly,we took a image of ground that we create using ground mat and 3d geometric shapes as obstacles using 3d Intel RealSense Depth Camera.Then we considered project as 3 stage that are 3d Image Processing,Path Planning and Ardunio but Ardunio step could not be realized.
+In this project we aimed to make otonomous car that can proceed without hitting the obstacles.Firstly,we took a image of ground that we create using ground mat and 3d geometric shapes as obstacles using 3d Intel RealSense Depth Camera.Then we considered project as 3 stage that are 3d Image Processing,Path Planning and Ardunio but Ardunio step could not be realized.
 </br></br>
 We used the following requirements:</br>
                                                                       **Hardware:**<br>
